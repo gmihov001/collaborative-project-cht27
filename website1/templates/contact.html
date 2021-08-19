@@ -1,21 +1,24 @@
-<div class="contactform" style="background-color: white;">
+<div class="contactform" style="background-color: white; padding: 20px;">
     <H1>Contact</H1>
-    <p style="font-family: sans-serif; text-size-adjust: auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <p style="font-family: sans-serif; text-size-adjust: auto; margin-left: 15px;">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
         Aliquam eget pharetra eros. Sed hendrerit elit augue, id lacinia urna accumsan in. Nam sit amet tellus erat.
         Suspendisse egestas.</p>
-    <div class="container" style="border: solid; width: 800px;">
-        <div class="mb-3 mt-5" style="width: 500px; display: flex;">
-            <label for="exampleFormControlInput1" class="form-label" style="text-emphasis: bold;">Your E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email"
-                style="border-width: 3px;">
+    <form>
+        <div style="">
+            <div class="mb-3" style="display: flex; width: 800px; height: auto;">
+                <label for="exampleInputEmail1" class="form-label">Your E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3" style="display: flex; width: 800px; height:auto;">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-sm-end">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </div>
-        <div class="mb-3" style="width: 500px; height: 200px; display: flex;">
-            <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"
-                style="border-width: 3px;"></textarea>
-        </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end" style="margin-right: 20px;">
-            <button class="btn btn-primary me-md-2" type="button">Submit</button>
-          </div>
-    </div>
+    </form>
+</div>
+</div>
 </div>
